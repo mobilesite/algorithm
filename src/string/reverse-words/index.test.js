@@ -1,6 +1,6 @@
 import reverse from './index';
 
-test('adds reverse "Let\'s take LeetCode contest" to equal "s\'teL ekat edoCteeL tsetnoc"', () => {
+test('reverse "Let\'s take LeetCode contest" to equal "s\'teL ekat edoCteeL tsetnoc"', () => {
   const input = "Let's take LeetCode contest";
   const output = "s'teL ekat edoCteeL tsetnoc";
 
