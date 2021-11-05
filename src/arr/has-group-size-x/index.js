@@ -1,5 +1,5 @@
 /**
- * https: //leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/
+ * https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/
  */
 export default (arr) => {
   // map用来存储每个数字出现的次数

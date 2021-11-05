@@ -1,3 +1,6 @@
+/**
+ * https://leetcode-cn.com/problems/gray-code/
+ */
 export default (n) => {
   const make = (n) => {
     // 递归函数，用来计算输入为n的格雷编码序列
