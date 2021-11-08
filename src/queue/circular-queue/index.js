@@ -2,7 +2,7 @@
  * https://leetcode-cn.com/problems/design-circular-queue/
  * @param {number} k
  */
-var MyCircularQueue = function (k) {
+function MyCircularQueue(k) {
   // 用来保存数据长度为k的数据结构
   this.list = Array(k);
   // 队首指针
@@ -66,6 +66,8 @@ MyCircularQueue.prototype.isFull = function () {
   // 这里注意后一个条件
   return this.front === this.rear && this.list[this.front] !== undefined;
 };
+
+export default MyCircularQueue;
 
 /**
  * Your MyCircularQueue object will be instantiated and called as such:
