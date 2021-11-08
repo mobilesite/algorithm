@@ -1,3 +1,6 @@
+/**
+ * https://leetcode-cn.com/problems/symmetric-tree/
+ */
 class Node {
   constructor (val) {
     this.val = val;
